@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap');
+
+body {
+    background-image: url(../images/background.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    gap: 6.25rem;
+}
+
+.container div {
+    color: #FFFFFF;
+    padding-right: 10%;
+}
+
+
+.container div h1 {
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.container div p {
+    font-size: 1.5rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    gap: 15px;
+    padding: 1.25rem;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
+
+.input {
+    width: 100%;
+    height: 10%;
+    padding: 0.6rem;
+    border-radius: 5px;
+}
+
+.mensagem-erro {
+    color: #F52E2E;
+    font-size: 0.9rem;
+    display: none;
+}
+
+.preenchido {
+    display: none;
+}
+
+.nao-preenchido {
+    display: block;
+}
+
+#input-mesage {
+    height: 40%;
+    padding: 0.6rem;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#input-submit {
+    background: #3CCC87;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 10px;
+    height: 15%;
+    font-size: 1.2rem;
+}
+
+#input-submit:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+
+.valido {
+    border: 1px solid #00C22B;
+}
+
+.invalido {
+    border: 1px solid #F52E2E;
+}

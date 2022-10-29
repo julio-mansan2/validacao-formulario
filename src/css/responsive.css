@@ -1,0 +1,28 @@
+@media (max-width: 1000px) {
+    
+    body {
+        height: 100%;
+        background-size: cover;
+    }
+    
+    .container {
+        flex-direction: column;
+        padding: 5%;
+        gap: 20px;
+    }
+
+    .container div {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .formulario {
+        width: 90%;
+        height: 100%;
+    }
+
+    input {
+        width: 100%;
+    }
+
+}
